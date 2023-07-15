@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name ="sample_provinsi">
+        <item>Aceh</item>
+        <item>Bangka Beltung</item>
+        <item>Jakarta</item>
+        <item>Bandung</item>
+        <item>Jogja</item>
+        <item>Surabaya</item>
+        <item>Rogob</item>
+
+    </string-array>
+
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+    <TextView
+        android:id="@+id/prov"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Pilih Provinsi"/>
+    <Spinner
+        android:id="@+id/provinsi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prov"
+        android:entries="@array/sample_provinsi"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/tombol"/>
+    <Button
+        android:id="@+id/tombol"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prov"
+        android:layout_alignParentRight="true"
+        android:text="OK"/>
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtnama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"/>
+    <EditText
+        android:id="@+id/edtalamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"/>
+    <TextView
+        android:id="@+id/txthasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="top"/>
+    <Button
+        android:id="@+id/btntampilkan"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="Tampilkan"/>
+</LinearLayout>
